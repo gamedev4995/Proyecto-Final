@@ -24,6 +24,14 @@ If the collided object has the tag "Key", the player has collected a key. Then i
 
 <img width="602" alt="Screenshot 2024-12-17 at 7 47 33 PM" src="https://github.com/user-attachments/assets/0dde2081-960d-4a8e-a3f9-5f98de24654a" />
 
+OpenGate Method checks if the gate reference is set. If so, destroys the gate GameObject, simulating the gate opening. Logs a message that the gate opened and hides the keysFound text since keys are no longer relevant once the gate is open. When the gate opens the gateOpened text pops up to inform the player that the gate is now open, then the coroutine FadeOutText gradually fades out the "Gate Opened!" message.
+
+<img width="500" alt="Screenshot 2024-12-17 at 7 48 53 PM" src="https://github.com/user-attachments/assets/7d972dd2-f5c8-427a-b94b-18c7615ee315" />
+
+FadeOutText Coroutine methid takes a TextMeshProUGUI element and gradually reduces its opacity (alpha) from fully visible (1) to invisible (0) over fadeDuration seconds. Uses Mathf.Lerp to smoothly interpolate the alpha value. After the loop finishes, it sets the text GameObject inactive, removing it from view entirely. Using a coroutine allows the fade to happen over multiple frames rather than instantly.
+
+<img width="600" alt="Screenshot 2024-12-17 at 7 52 55 PM" src="https://github.com/user-attachments/assets/9ae9615f-a94f-46cb-9d8e-c05d3f04d91d" />
+
 
 
 
