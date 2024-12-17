@@ -18,17 +18,11 @@ como jugar
 
 ## Assets
 
- Fantasy RPG Human Male
-FREE - Modular Character - Fantasy RPG Human Male | Characters | Unity Asset Store
-Fantasy Spider
-fantasy spider | Characters | Unity Asset Store
-Potions
-Potions, Coin And Box of Pandora Pack | 3D Props | Unity Asset Store
-Rusty Keys
-Rust Key | 3D Props | Unity Asset Store
-Dungeon Kit
-Decrepit Dungeon LITE | 3D Dungeons | Unity Asset Store
-Nature Kit
-Stylized Nature Kit Lite | 3D Environments | Unity Asset Store
+- Fantasy RPG Human Male FREE: Modular Character - Fantasy RPG Human Male | Characters | Unity Asset Store
+- Fantasy Spider: fantasy spider | Characters | Unity Asset Store
+- Potions: Potions, Coin And Box of Pandora Pack | 3D Props | Unity Asset Store
+- Rusty Keys: Rust Key | 3D Props | Unity Asset Store
+- Dungeon Kit: Decrepit Dungeon LITE | 3D Dungeons | Unity Asset Store
+- Nature Kit: Stylized Nature Kit Lite | 3D Environments | Unity Asset Store
 
 
