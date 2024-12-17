@@ -14,7 +14,14 @@ Our game takes place in a medieval fantasy world. You are an adventurer who ente
 
 
 ## Rules:
-como jugar
+Player starts at maze entrance.
+Use the mouse to look around.
+Use WASD or arrow keys to move in any direction.
+Use the spacebar to jump. 
+Character must touch keys or power ups in order to acquire them.
+All 3 keys must be aquired to open exit.
+If player health reaches 0, game over.
+
 
 ## Assets
 In Unity's Assets Store, we installed and imported the following FREE assets to use its prefabs and decorate the maze:
