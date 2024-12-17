@@ -17,12 +17,14 @@ Our game takes place in a medieval fantasy world. You are an adventurer who ente
 como jugar
 
 ## Assets
+In Unity's Assets Store, we installed and imported the following FREE assets to decorate the landscape a bit and bring more life into the scene:
 
-- Fantasy RPG Human Male FREE: Modular Character - Fantasy RPG Human Male | Characters | Unity Asset Store
-- Fantasy Spider: fantasy spider | Characters | Unity Asset Store
-- Potions: Potions, Coin And Box of Pandora Pack | 3D Props | Unity Asset Store
-- Rusty Keys: Rust Key | 3D Props | Unity Asset Store
-- Dungeon Kit: Decrepit Dungeon LITE | 3D Dungeons | Unity Asset Store
-- Nature Kit: Stylized Nature Kit Lite | 3D Environments | Unity Asset Store
+Prefabs used in our video game and what asset they're from:
+1. Fantasy RPG Human Male: FREE Modular Character - Fantasy RPG Human Male | Characters | Unity Asset Store
+2. Fantasy Spider: fantasy spider | Characters | Unity Asset Store
+3. Potions: Potions, Coin And Box of Pandora Pack | 3D Props | Unity Asset Store
+4. Rusty Keys: Rust Key | 3D Props | Unity Asset Store
+5. Dungeon Kit: Decrepit Dungeon LITE | 3D Dungeons | Unity Asset Store
+6. Nature Kit: Stylized Nature Kit Lite | 3D Environments | Unity Asset Store
 
 
