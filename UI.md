@@ -11,6 +11,7 @@ To start off, we need to go to window > package manager > unity registry > and i
 
 ## Final Result
 <img width="800" alt="Screenshot 2024-12-17 at 6 19 04 PM" src="https://github.com/user-attachments/assets/96d822b7-c29f-4674-b225-35e77e2174f5" />
+
 _note!_: our potion usage text will display various texts depending on what potion the player consumed
 
 ---
