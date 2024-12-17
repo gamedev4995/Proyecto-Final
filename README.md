@@ -14,7 +14,7 @@ Our game takes place in a medieval fantasy world. You are an adventurer who ente
 
 
 ## Rules:
-- Player starts at maze entrance & cannot leave through there.
+- Player cannot leave through maze entrance.
 - Use the mouse to look around.
 - Use WASD or arrow keys to move in any direction.
 - Use the spacebar to jump. 
