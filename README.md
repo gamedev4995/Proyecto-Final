@@ -1,6 +1,6 @@
-# Final Project - nombre del juego 
+# Final Project - Dungeon Escapade 
 
-For our final class project, we chose to do a maze game
+For our final class project, we chose to do a maze game in which the player gets chased by a monster and must find 3 keys in order to escape.
 
 ---
 
@@ -15,3 +15,4 @@ Our game takes place in a medieval fantasy world. You are an adventurer who ente
 
 ## Rules:
 como jugar
+
