@@ -14,13 +14,13 @@ Our game takes place in a medieval fantasy world. You are an adventurer who ente
 
 
 ## Rules:
-Player starts at maze entrance.
-Use the mouse to look around.
-Use WASD or arrow keys to move in any direction.
-Use the spacebar to jump. 
-Character must touch keys or power ups in order to acquire them.
-All 3 keys must be aquired to open exit.
-If player health reaches 0, game over.
+- Player starts at maze entrance & cannot leave through there.
+- Use the mouse to look around.
+- Use WASD or arrow keys to move in any direction.
+- Use the spacebar to jump. 
+- Character must touch keys or power ups in order to acquire them.
+- All 3 keys must be aquired to open exit.
+- If player health reaches 0, game over.
 
 
 ## Assets
@@ -28,10 +28,15 @@ In Unity's Assets Store, we installed and imported the following FREE assets to 
 
 Prefabs used in our video game and what asset they're from:
 1. Fantasy RPG Human Male: FREE Modular Character - Fantasy RPG Human Male | Characters | Unity Asset Store
+
 2. Fantasy Spider: fantasy spider | Characters | Unity Asset Store
+
 3. Potions: Potions, Coin And Box of Pandora Pack | 3D Props | Unity Asset Store
+
 4. Rusty Keys: Rust Key | 3D Props | Unity Asset Store
+
 5. Dungeon Kit: Decrepit Dungeon LITE | 3D Dungeons | Unity Asset Store
+
 6. Nature Kit: Stylized Nature Kit Lite | 3D Environments | Unity Asset Store
 
 
