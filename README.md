@@ -17,7 +17,7 @@ Our game takes place in a medieval fantasy world. You are an adventurer who ente
 como jugar
 
 ## Assets
-In Unity's Assets Store, we installed and imported the following FREE assets to decorate the landscape a bit and bring more life into the scene:
+In Unity's Assets Store, we installed and imported the following FREE assets to use its prefabs and decorate the maze:
 
 Prefabs used in our video game and what asset they're from:
 1. Fantasy RPG Human Male: FREE Modular Character - Fantasy RPG Human Male | Characters | Unity Asset Store
