@@ -19,16 +19,25 @@ We also added a 'Player' tag and layer for future interactions.
 ## Scripts
 ### Player Movement
 Then we added a script dedicated for the player movement controls called "PlayerMovement". In the script, we have the following libraries and variables (keep in mind we used Unity's newest input system).
+![Screenshot 2024-12-17 223007](https://github.com/user-attachments/assets/854d2e33-9603-4431-82bb-f55bdeefa629)
 
 For the first function, on Awake(), we have the following:
+![Screenshot 2024-12-17 223021](https://github.com/user-attachments/assets/284e4c33-7e3b-4235-a264-ee7e04ab1d15)
 
 Then we have the OnMove function:
+![Screenshot 2024-12-17 223031](https://github.com/user-attachments/assets/ead45905-62f7-4aaf-be56-5ca73309495f)
 
 Next, the OnLook function:
+![Screenshot 2024-12-17 223042](https://github.com/user-attachments/assets/ebb4c091-8c1e-4521-848a-3d6cb7490681)
 
-For the Jump function, we have OnJump() and OnCollisionEnter() which detects whether or not the player is back on the ground, preventing infinite jumps.
+For the jumping mechanic, we have OnJump() and OnCollisionEnter() which detects whether or not the player is back on the ground, preventing infinite jumps.
+
+![Screenshot 2024-12-17 223051](https://github.com/user-attachments/assets/1068a9b0-4bbc-4963-976c-8f9b2b4b737d)
+
+![Screenshot 2024-12-17 223103](https://github.com/user-attachments/assets/6658b42c-7977-4951-a02a-55ecfcb7930e)
 
 Lastly for this script, on Update(), force and torque is applied:
+![image](https://github.com/user-attachments/assets/92dffc3c-d465-4c19-9719-922ae1e7eca0)
 
 ___Note:___ Values adjusted for public variables.
 
@@ -37,6 +46,7 @@ Result:
 
 ### Health
 For our second script, we called it "Health" in order to manage the amount of the player's health. The following libraries, variables and code were added:
+![Screenshot 2024-12-17 222552](https://github.com/user-attachments/assets/e371dd5b-423d-488b-bc30-602247912046)
 
 ## Animation
 __Note:___ Unfortunately we were only able to apply animation for the player and not the monster (spider) due to an odd behavior with the asset.
@@ -45,10 +55,13 @@ For animations, one must first add an 'Animator Controller' in projects folder a
 ![Screenshot 2024-12-17 214043](https://github.com/user-attachments/assets/f9cd9383-dbe8-4774-a632-0dcf4988cc10)
 
 Then, in the 'Animator' tab, we dragged the animations that we wanted to use from our asset:
+![Screenshot 2024-12-17 222901](https://github.com/user-attachments/assets/1f295554-2a77-4738-962f-907464fb534d)
 
 Then we right clicked on each animation to 'Make Transition' to other animations. In our case we went from Entry to Idle, Idle to Jump (vice versa) Idle to Running (vice versa), and Running to Jump (vice versa):
+![Screenshot 2024-12-17 221426](https://github.com/user-attachments/assets/cfd05eb3-74b8-46ea-b7ac-bae9f630e288)
 
 Afterwards, we went to the 'Parameter' tab on the side and created, with the '+', a 'bool' called "moving" and a 'trigger' called "jump".
+![Screenshot 2024-12-17 221438](https://github.com/user-attachments/assets/78bc4a8b-13e0-4a63-909a-f4b4ca4e564f)
 
 With these created, we could then set up the conditions by clicking on each arrow in the transitions and to the right in 'Conditions' the '+' was pressed and set up the conditions logically.
 ![Screenshot 2024-12-17 221618](https://github.com/user-attachments/assets/a48edd8f-2015-4fb7-a7e8-e2c3c6aa325a)
@@ -61,10 +74,16 @@ With these created, we could then set up the conditions by clicking on each arro
 6. For Jump to Running: we added condition 'moving' and 'true'
 
 Back to the Player Movement script, we added the following variable:
+![Screenshot 2024-12-17 223418](https://github.com/user-attachments/assets/cf2e8ddd-de31-4acf-ae8c-a614192fe990)
+
+On Awake(), we obtain the 'Animator' component:
+![Screenshot 2024-12-17 223423](https://github.com/user-attachments/assets/113fe2fa-9b3d-4045-aab9-f389ce3af43f)
 
 For the running animation, we added the following line of code in OnMove():
+![Screenshot 2024-12-17 223431](https://github.com/user-attachments/assets/ea599c21-2562-45d7-ae74-23fcebe9528e)
 
 For the jump animation, we added the following in OnJump():
+![Screenshot 2024-12-17 223442](https://github.com/user-attachments/assets/ce3c8435-faf2-4006-81ee-31de99b4d136)
 
 Result:
 [gif]
