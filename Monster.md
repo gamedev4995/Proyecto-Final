@@ -41,7 +41,9 @@ Result:
 ___Note:___Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
 
 ### Navigation
-In the 'Navigation' tab, we made sure the properly 'Bake' the area we wanted the spider to traverse.
+First, we made sure that all walls from the maze were 'static'.
+
+Then, in the 'Navigation' tab, we properly 'Baked' the area we wanted the spider to traverse.
 
 Result:
 [image]
