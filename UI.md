@@ -81,6 +81,15 @@ _Note:_ with every text enabled, they will all look to be on top of each other b
 
 ---
 
+### Gate Notice
+
+For our gate notice text we simply copy and pasted once more one of the other texts we've made. We changed the position to the middle so the player is well aware that they can now escape the maze and win.
+
+_Note:_ The apperance of this text is managed as well on our script 'KeyCollection', discussed over at [Keys.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/keys.md)
+
+
+---
+
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 19 04 PM" src="https://github.com/user-attachments/assets/96d822b7-c29f-4674-b225-35e77e2174f5" />
 
