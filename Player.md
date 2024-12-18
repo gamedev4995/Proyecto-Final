@@ -7,6 +7,10 @@ Then we proceeded to add 'Rigidbody' component:
 
 Then came the collider. We went for the 'capsule collider' and adjusted the center and radius:
 
+___Note:___ We also created a 'Physics Material' called 'NoFriction', set all values to 0 and dragged it onto the 'Material' section in the collider. With this applied to the character model and walls, the player would no longer get "stuck" on the walls during contact. 
+
+We also added a 'Player' tag and layer for future interactions.
+
 ## Scripts
 ### Player Movement
 Then we added a script dedicated for the player movement controls called "PlayerMovement". In the script, we have the following libraries and variables (keep in mind we used Unity's newest input system).
