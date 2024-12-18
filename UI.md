@@ -43,6 +43,7 @@ We wanted our healthbar to go down whenever the player lost any health. For this
 
 <img width="606" alt="Screenshot 2024-12-17 at 9 02 32 PM" src="https://github.com/user-attachments/assets/61a4332f-3203-49d4-9d10-d15562700b5c" />
 
+---
 
 ### Key Counter
 
@@ -52,10 +53,33 @@ For our key counter, we add a text (GameObject > UI > 'Text - TextMeshPro') and 
 
 We also changed the font asset and selected our imported font 'Breath Fire II'.
 
-
 <img width="483" alt="Screenshot 2024-12-17 at 9 22 55 PM" src="https://github.com/user-attachments/assets/a6dbe539-f168-4cb4-8dd0-4387faa14a8f" />
 
 
+_Note:_ For our counter, we added it into our script 'KeyCollection', discussed over at [Keys.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/keys.md)
+
+---
+
+### Potion Usage
+
+For our text regarding the usage of our potions, we copy and pasted our keys counter text and simply changed the position to where we wanted the text to appear. On our case we positioned this below our healthbar. In total we have three texts for this part, one text per potion.
+
+Health potion:
+
+<img width="495" alt="Screenshot 2024-12-17 at 9 36 28 PM" src="https://github.com/user-attachments/assets/308e2782-e6b1-4574-8b86-c7427eca01c9" />
+
+Speed potion:
+
+<img width="489" alt="Screenshot 2024-12-17 at 9 36 34 PM" src="https://github.com/user-attachments/assets/21415d16-b99e-4c3e-8102-fa7a107de1bf" />
+
+Jump potion:
+
+<img width="483" alt="Screenshot 2024-12-17 at 9 36 38 PM" src="https://github.com/user-attachments/assets/b7c95048-8c82-4e6e-a553-84b357192de0" />
+
+
+_Note:_ with every text enabled, they will all look to be on top of each other but we made sure to code into our script 'PotionEffects' where the appearance of each text is handled according to which potion you take. Discussed in [Potions.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/Potions.md)
+
+---
 
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 19 04 PM" src="https://github.com/user-attachments/assets/96d822b7-c29f-4674-b225-35e77e2174f5" />
