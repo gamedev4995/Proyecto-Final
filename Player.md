@@ -31,6 +31,8 @@ For the first function, on Awake(), we have the following:
 
 <img width="400" alt="Screenshot 2024-12-17 223021" src="https://github.com/user-attachments/assets/284e4c33-7e3b-4235-a264-ee7e04ab1d15" />
 
+_Note!_: having the cursor locked will not let the player hit play again/restart at the end of their game. We decided to leave it for asthetic purposes but if you do not mind the cursor and remove these, you will be able to properly hit the button and play again at the end if you wish to do so.
+
 Then we have the OnMove function:
 
 <img width="400" alt="Screenshot 2024-12-17 223031" src="https://github.com/user-attachments/assets/ead45905-62f7-4aaf-be56-5ca73309495f" />
