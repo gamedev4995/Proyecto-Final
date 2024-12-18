@@ -1,13 +1,13 @@
 # Maze
 ---
 
-To create the maze first we mapped out and generated a few iterations of different maze sizes to create a maze that wasnt to large and difficult or too easy.
+To create the maze first we mapped out and generated a few iterations of different maze sizes to create a maze that wasn't too large and difficult or too easy.
 
 
 
-## Entrance
+## Maze Entrance
 ---
-To avoid the having the player in an open space where they can wonder off we created a start room where the player and spider will be initialized.
+To avoid having the player in an open space where they can wander off we created a start room where the player and spider will be initialized.
 
 Using the same flooring prefab used in our dungeon maze we placed three floor objects next to each other to create a vertical path. Two of these should be children of the first prefab placed for the entrance in order to keep them grouped and facilitate any adjustments needed.
 
@@ -21,7 +21,7 @@ Now we can add our adventurer in front of the maze entrance and the spider behin
 
 <img width="600" alt="Screenshot 2024-12-17 at 10 42 11 PM" src="https://github.com/user-attachments/assets/9943e615-967b-4ec4-9beb-1db4898e3626" />
 
-Lastly details such as torches, barrels, chains and such are added to match the enviorment of the dungeon.
+Lastly details such as torches, barrels, chains and such are added to match the environment of the dungeon.
 
 <img width="752" alt="Screenshot 2024-12-17 at 10 47 18 PM" src="https://github.com/user-attachments/assets/fe073936-3849-4f06-a470-42a4d4233f5f" />
 
@@ -30,10 +30,10 @@ The final touch for the entrance would be to add a ceiling on top in order to co
 <img width="750" alt="Screenshot 2024-12-17 at 10 48 31 PM" src="https://github.com/user-attachments/assets/3a070d98-ca5d-4cc9-8370-2f148bf4c57f" />
 
 
-## Exit
+## Maze Exit
 ---
 
-For the exit area we decided on a grassy forrest area. Firts place a GameObject of type plane and place infront of the exit gate. The size/shape of the plane should roughly be around 3 x 3. 
+For the exit area we decided on a grassy forest area. First place a GameObject of type plane and place it in front of the exit gate. The size/shape of the plane should roughly be around 3 x 3. 
 
 <img width="600" alt="Screenshot 2024-12-17 at 10 51 51 PM" src="https://github.com/user-attachments/assets/0fc06d76-f2d4-4a0b-8a8a-b41db3ac46e3" />
 
