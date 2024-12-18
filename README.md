@@ -41,4 +41,6 @@ Prefabs used in our video game and what asset they're from:
 
 6. Nature Kit: Stylized Nature Kit Lite | 3D Environments | Unity Asset Store
 
+7. GUI Parts: UI materials | Buttons | Healthbar
+
 
