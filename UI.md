@@ -100,7 +100,29 @@ _note!_: our potion usage text will display various texts depending on what poti
 ---
 
 ## Win Screen UI
-For our win screen UI, we simply stuck with a simple UI screen with only a background, a victory text and a 'play again' interactable button.
+
+For our win screen UI, we simply stuck with a simple UI screen with only a background, a victory text and a 'play again' interactable button. Firstly add the gameobject UI > 'Raw Image'. We imported our desired picture, since its our win screen, we added a forest image to represent how the player made it out safely.
+
+We adjusted the height and width with the rec tool to cover our whole screen.
+
+<img width="400" alt="Screenshot 2024-12-17 at 10 15 43 PM" src="https://github.com/user-attachments/assets/1b28709a-6c5c-44af-9714-26e78d57168c" />
+
+For our 'you win' text, we add a text (GameObject > UI > 'Text - TextMeshPro') and in the inspector tab we added the text we wanted which in this case was "You Win!". We adjusted the position to out liking with the move tool as well.
+
+<img width="400" alt="Screenshot 2024-12-17 at 10 17 25 PM" src="https://github.com/user-attachments/assets/9b8e7310-c217-4d86-ae0a-d3b12e2ec93f" />
+
+For our 'play again' button, firstly add the gameobject UI > 'Button - TextMeshPro'. Now on your proyect window, search for the GUI Parts folder, we'll use the button_on asset. We dragged the button_on asset to source image and adjusted the width and height with the rec tool to out liking. We also changed the text inside the button to read 'play again'.
+
+<img width="400" alt="Screenshot 2024-12-17 at 10 28 14 PM" src="https://github.com/user-attachments/assets/786c74fe-5728-40e0-87a4-846a6e763f01" />
+
+Since we wanted our button to be interactable and restart the game if the player wanted, we added an empty gameobject called WinManager which will have a script that will handle when or if the button is clicked. 
+
+<img width="400" alt="Screenshot 2024-12-17 at 10 31 04 PM" src="https://github.com/user-attachments/assets/45b91197-d103-4775-91ee-b1907305919a" />
+
+To make our button call the function Play Again, we headed into our inspector tab and added an action OnClick. There we added the winmanager script and made sure to choose the play again function so that it calls and loads the main scene once the player hits play again.
+
+<img width="224" alt="Screenshot 2024-12-17 at 10 34 41 PM" src="https://github.com/user-attachments/assets/05e58818-4e3b-40d3-93f7-21d861c17842" />
+
 
 ## Final Result
 
@@ -109,7 +131,7 @@ For our win screen UI, we simply stuck with a simple UI screen with only a backg
 ---
 
 ## Lose Screen UI
-For our lose screen UI, we simply stuck with a simple UI screen with only a background, a defeat text and a 'retry' interactable button.
+For our lose screen UI, we simply stuck with a simple UI screen with only a background, a defeat text and a 'retry' interactable button. Since it's the same as the win screen, we simply copy and pasted the components into a new scene and replaced the image/text to fit the lose screen. Since its our lose screen, we added a dungeon image to symbolize how the player couldn't make it out alive, we also changed the button text to read "restart"
 
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 25 31 PM" src="https://github.com/user-attachments/assets/03bd3802-3446-4887-a33e-838dbcf3e2e1" />
