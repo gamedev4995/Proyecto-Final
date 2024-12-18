@@ -12,7 +12,6 @@ To start off, we need to go to window > package manager > unity registry > and i
 
 Since wanted to stick with our medieval theme, we imported a desired font called 'Breath Fire II', courtesy of www.dafont.com, to fit our game's aesthetic. To import new fonts we have to go to Window > TextMeshPro > Font Asset Creator. This will bring up a new window but we simply dragged our already downloaded font into source font file and hit Generate Font Atlas and save.
 
-
 ### Healthbar
 Firstly add the gameobject UI > 'Image'. Now on your proyect window, search for the GUI Parts folder, we'll use hp_line and hp_frame for our healthbar.
 
@@ -84,6 +83,9 @@ _Note:_ with every text enabled, they will all look to be on top of each other b
 ### Gate Notice
 
 For our gate notice text we simply copy and pasted once more one of the other texts we've made. We changed the position to the middle so the player is well aware that they can now escape the maze and win.
+
+
+<img width="507" alt="Screenshot 2024-12-17 at 9 48 31 PM" src="https://github.com/user-attachments/assets/2af54c8b-ca96-4bb9-ae6b-121067b89153" />
 
 _Note:_ The apperance of this text is managed as well on our script 'KeyCollection', discussed over at [Keys.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/keys.md)
 
