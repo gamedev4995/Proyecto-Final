@@ -29,15 +29,15 @@ For our spider to chase around our player and inflict damage upon range, we adde
 ### Scripts
 Here we added two scripts, first one being 'Spider Sight':
 
-<img width="400" alt="Screenshot 2024-12-17 221045" src="https://github.com/user-attachments/assets/fd434b39-7349-4174-a0a3-8b9cc8e8f676" />
+<img width="450" alt="Screenshot 2024-12-17 221045" src="https://github.com/user-attachments/assets/fd434b39-7349-4174-a0a3-8b9cc8e8f676" />
 
 In 'Spider Sight' script, we used the following libraries and variables:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/f4f40a3f-59a8-41f8-9ada-5ded0d8a437b" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/f4f40a3f-59a8-41f8-9ada-5ded0d8a437b" />
 
 For Update() we placed the following code:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/d5bf56da-677e-460d-ac01-7fbcd4792bf7" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/d5bf56da-677e-460d-ac01-7fbcd4792bf7" />
 
 For visuals, we drew gizmos:
 
