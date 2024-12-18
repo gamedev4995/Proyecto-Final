@@ -101,5 +101,6 @@ Then we baked the area and unchecked the 'Mesh Renderer' so that it became invis
 <img width="160" alt="Screenshot 2024-12-17 215738" src="https://github.com/user-attachments/assets/41b506db-8956-464d-b06f-eaa16c98dc07" />
 
 Final Result:
-[gif]
+
+![Uploading NavChaseVid-ezgif.com-video-to-gif-converter.gif…]()
 
