@@ -55,3 +55,12 @@ For the jump animation, we added the following in OnJump():
 
 Result:
 [gif]
+
+## Camera (First Person)
+For the first person perspective of our game, we first placed the camera as a child of our character asset:
+
+Then we created a script called 'Camera Controller' which enables the vertical control of the camera since the horizontal one was already established in the PlayerMovement rotation.
+
+For this script we added the following libraries and variables:
+
+And lastly the following Awake() and Update() code:
