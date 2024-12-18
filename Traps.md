@@ -16,12 +16,11 @@ For our fire effect we decided to reuse a previously imported material in class 
 
 <img width="400" alt="Screenshot 2024-12-17 at 8 54 55 PM" src="https://github.com/user-attachments/assets/7fc65c42-efd8-48b5-8f55-441bc3990633" />
 
-Our fire traps variables should be as follows: 
-
 For the render field the material should be "fire":
 
 <img width="400" alt="Screenshot 2024-12-17 at 8 45 08 PM" src="https://github.com/user-attachments/assets/8337b49f-91b1-44f8-9a98-df6a20021bae" />
 
+The fire traps particle variables should be as follows: 
 
 <img width="400" alt="Screenshot 2024-12-17 at 8 44 21 PM" src="https://github.com/user-attachments/assets/c4de981c-23b3-42b5-b0fa-7330f07de5ee" />
 
