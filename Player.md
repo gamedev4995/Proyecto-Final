@@ -8,7 +8,7 @@ Then we proceeded to add Rigidbody component:
 Then came the collider. We went for the capsule collider and adjusted the center and radius:
 
 ## Scripts
-1. Player Movement
+### Player Movement
 Then we added a script dedicated for the player movement controls called "PlayerMovement". In the script, we have the following libraries and variables (keep in mind we used Unity's newest input system).
 
 For the first function, on Awake(), we have the following:
@@ -26,7 +26,7 @@ ___Note:___ Values adjusted for public variables.
 Result:
 [gif]
 
-2. Health
+### Health
 For our second script, we called it "Health" in order to manage the amount of the player's health. The following libraries, variables and code were added:
 
 ## Animation
