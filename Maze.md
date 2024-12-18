@@ -33,5 +33,19 @@ The final touch for the entrance would be to add a ceiling on top in order to co
 ## Exit
 ---
 
+For the exit area we decided on a grassy forrest area. Firts place a GameObject of type plane and place infront of the exit gate. The size/shape of the plane should roughly be around 3 x 3. 
+
+<img width="600" alt="Screenshot 2024-12-17 at 10 51 51 PM" src="https://github.com/user-attachments/assets/0fc06d76-f2d4-4a0b-8a8a-b41db3ac46e3" />
+
+Next go to the materials folder and create a new material for the grass. Import a grass texture and place in the base map and adjust surface options. Place this material on the plane.
+
+<img width="300" alt="Screenshot 2024-12-17 at 10 55 10 PM" src="https://github.com/user-attachments/assets/e17dd3e0-ffc5-4fcd-9641-962b18cdd0e2" />
+
+To create the effect of a thick shrouded forest we cover the surrounding area of the plane with a lot of foliage to avoid the player seeing beyond the map. Using the imported assets that contain the tree prefabs we chose to use, we created a circle around the area.
+
+<img width="600" alt="Screenshot 2024-12-17 at 10 58 58 PM" src="https://github.com/user-attachments/assets/82d0bf20-22ff-41f2-bcb8-ae7b2140a0e0" />
+
+This will be the temporary scenery the player views once exiting the maze before being taken to the win screen.
+
 
 
