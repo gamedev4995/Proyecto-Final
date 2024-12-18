@@ -82,7 +82,7 @@ Afterwards, we went to the 'Parameter' tab on the side and created, with the '+'
 
 With these created, we could then set up the conditions by clicking on each arrow in the transitions and to the right in 'Conditions' the '+' was pressed and set up the conditions logically.
 
-<img width="450" alt="Screenshot 2024-12-17 221618" src="https://github.com/user-attachments/assets/a48edd8f-2015-4fb7-a7e8-e2c3c6aa325a" />
+<img width="600" alt="Screenshot 2024-12-17 221618" src="https://github.com/user-attachments/assets/a48edd8f-2015-4fb7-a7e8-e2c3c6aa325a" />
 
 1. For Idle to Jump: we added condition 'jump'
 2. For Jump to Idle: we added condition 'moving' and 'false'
@@ -93,7 +93,7 @@ With these created, we could then set up the conditions by clicking on each arro
 
 Back to the Player Movement script, we added the following variable:
 
-<img width="300" alt="Screenshot 2024-12-17 223418" src="https://github.com/user-attachments/assets/cf2e8ddd-de31-4acf-ae8c-a614192fe990" />
+<img width="400" alt="Screenshot 2024-12-17 223418" src="https://github.com/user-attachments/assets/cf2e8ddd-de31-4acf-ae8c-a614192fe990" />
 
 On Awake(), we obtain the 'Animator' component:
 
@@ -101,7 +101,7 @@ On Awake(), we obtain the 'Animator' component:
 
 For the running animation, we added the following line of code in OnMove():
 
-<img width="400" alt="Screenshot 2024-12-17 223431" src="https://github.com/user-attachments/assets/ea599c21-2562-45d7-ae74-23fcebe9528e" />
+<img width="500" alt="Screenshot 2024-12-17 223431" src="https://github.com/user-attachments/assets/ea599c21-2562-45d7-ae74-23fcebe9528e" />
 
 For the jump animation, we added the following in OnJump():
 
