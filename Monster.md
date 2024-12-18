@@ -35,11 +35,11 @@ In 'Spider Sight' script, we used the following libraries and variables:
 
 For Update() we placed the following code:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/d5bf56da-677e-460d-ac01-7fbcd4792bf7" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d5bf56da-677e-460d-ac01-7fbcd4792bf7" />
 
 For visuals, we drew gizmos:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/46266421-2c25-4d6a-b7d1-876f76d60fd2" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/46266421-2c25-4d6a-b7d1-876f76d60fd2" />
 
 Then came the second script which we called 'SpiderFSM':
 
