@@ -59,7 +59,7 @@ Result:
 ### Health
 For our second script, we called it "Health" in order to manage the amount of the player's health. The following libraries, variables and code were added:
 
-<img width="400" alt="Screenshot 2024-12-17 222552" src="https://github.com/user-attachments/assets/e371dd5b-423d-488b-bc30-602247912046" />
+<img width="300" alt="Screenshot 2024-12-17 222552" src="https://github.com/user-attachments/assets/e371dd5b-423d-488b-bc30-602247912046" />
 
 ## Animation
 __Note:___ Unfortunately we were only able to apply animation for the player and not the monster (spider) due to an odd behavior with the asset.
@@ -70,11 +70,11 @@ For animations, one must first add an 'Animator Controller' in projects folder a
 
 Then, in the 'Animator' tab, we dragged the animations that we wanted to use from our asset:
 
-<img width="300" alt="Screenshot 2024-12-17 222901" src="https://github.com/user-attachments/assets/1f295554-2a77-4738-962f-907464fb534d" />
+<img width="450" alt="Screenshot 2024-12-17 222901" src="https://github.com/user-attachments/assets/1f295554-2a77-4738-962f-907464fb534d" />
 
 Then we right clicked on each animation to 'Make Transition' to other animations. In our case we went from Entry to Idle, Idle to Jump (vice versa) Idle to Running (vice versa), and Running to Jump (vice versa):
 
-<img width="300" alt="Screenshot 2024-12-17 221426" src="https://github.com/user-attachments/assets/cfd05eb3-74b8-46ea-b7ac-bae9f630e288" />
+<img width="450" alt="Screenshot 2024-12-17 221426" src="https://github.com/user-attachments/assets/cfd05eb3-74b8-46ea-b7ac-bae9f630e288" />
 
 Afterwards, we went to the 'Parameter' tab on the side and created, with the '+', a 'bool' called "moving" and a 'trigger' called "jump".
 
@@ -82,7 +82,7 @@ Afterwards, we went to the 'Parameter' tab on the side and created, with the '+'
 
 With these created, we could then set up the conditions by clicking on each arrow in the transitions and to the right in 'Conditions' the '+' was pressed and set up the conditions logically.
 
-<img width="300" alt="Screenshot 2024-12-17 221618" src="https://github.com/user-attachments/assets/a48edd8f-2015-4fb7-a7e8-e2c3c6aa325a" />
+<img width="450" alt="Screenshot 2024-12-17 221618" src="https://github.com/user-attachments/assets/a48edd8f-2015-4fb7-a7e8-e2c3c6aa325a" />
 
 1. For Idle to Jump: we added condition 'jump'
 2. For Jump to Idle: we added condition 'moving' and 'false'
