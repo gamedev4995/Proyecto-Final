@@ -108,8 +108,8 @@ For the jump animation, we added the following in OnJump():
 <img width="400" alt="Screenshot 2024-12-17 223442" src="https://github.com/user-attachments/assets/ce3c8435-faf2-4006-81ee-31de99b4d136" />
 
 Result:
-![PlayerAnimationVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cadeddfd-3f61-4730-a3fb-69bdf85425d3)
 
+![PlayerAnimationVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cadeddfd-3f61-4730-a3fb-69bdf85425d3)
 
 ## Camera (First Person)
 For the first person perspective of our game, we first placed the camera as a child of our character asset:
