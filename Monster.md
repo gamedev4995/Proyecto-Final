@@ -17,7 +17,7 @@ Then we added a 'Nav Mesh Agent' component:
 
 Additionally, we assigned a layer called 'Enemy' for future interactions.
 
-<img width="200" alt="Screenshot 2024-12-17 214251" src="https://github.com/user-attachments/assets/828bd492-0dc8-4750-9b43-4e8b3a47c16f" />
+<img width="400" alt="Screenshot 2024-12-17 214251" src="https://github.com/user-attachments/assets/828bd492-0dc8-4750-9b43-4e8b3a47c16f" />
 
 ## AI
 For our spider to chase around our player and inflict damage upon range, we added an AI object by creating and empty object (GameObject > Create Empty) and dragging it into the spider object as a child.
