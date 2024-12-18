@@ -94,11 +94,11 @@ Then created a unique layer for it called 'InvisibleFloor':
 
 Where in the Edit > Project Settings > Physics we unchecked the interaction between Player and InvisibleFloor so that the play is still able to fall in the hole traps.
 
-<img width="450" alt="Screenshot 2024-12-17 215305" src="https://github.com/user-attachments/assets/f5d33244-0857-4043-898c-1984a5d6197a" />
+<img width="300" alt="Screenshot 2024-12-17 215305" src="https://github.com/user-attachments/assets/f5d33244-0857-4043-898c-1984a5d6197a" />
 
 Then we baked the area and unchecked the 'Mesh Renderer' so that it became invisble to the eye.
 
-<img width="350" alt="Screenshot 2024-12-17 215738" src="https://github.com/user-attachments/assets/41b506db-8956-464d-b06f-eaa16c98dc07" />
+<img width="300" alt="Screenshot 2024-12-17 215738" src="https://github.com/user-attachments/assets/41b506db-8956-464d-b06f-eaa16c98dc07" />
 
 Final Result:
 
