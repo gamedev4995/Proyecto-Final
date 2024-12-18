@@ -5,7 +5,7 @@ To start off, we placed the prefab of the human model from our asset onto the sc
 
 Then we proceeded to add 'Rigidbody' component:
 
-Then came the collider. We went for the 'capsule collider' and adjusted the center and radius:
+Then came the collider. We went for the 'Capsule Collider' and adjusted the center and radius:
 
 ___Note:___ We also created a 'Physics Material' called 'NoFriction', set all values to 0 and dragged it onto the 'Material' section in the collider. With this applied to the character model and walls, the player would no longer get "stuck" on the walls during contact. 
 
@@ -68,3 +68,6 @@ Then we created a script called 'Camera Controller' which enables the vertical c
 For this script we added the following libraries and variables:
 
 And lastly the following Awake() and Update() code:
+
+Final Result:
+[gif]
