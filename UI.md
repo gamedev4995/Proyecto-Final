@@ -9,6 +9,11 @@ For our in game UI, we decided to incorporate:
 
 To start off, we need to go to window > package manager > unity registry > and import 2d sprite. We also need to add the GUI Parts Asset which can be found in the asset store (Window > Assets Store > GUI parts).
 
+Firstly add the UI gameobject 'Canvas' > 'Image'. Now on your proyect window, search for the GUI Parts folder, we'll use hp_line and hp_frame for our healthbar.
+
+<img width="160" alt="Screenshot 2024-12-17 at 8 24 32 PM" src="https://github.com/user-attachments/assets/573fb04a-f1de-46fc-9b42-3d1e59dcd7fc" />
+
+
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 19 04 PM" src="https://github.com/user-attachments/assets/96d822b7-c29f-4674-b225-35e77e2174f5" />
 
