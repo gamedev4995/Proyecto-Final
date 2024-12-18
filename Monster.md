@@ -63,7 +63,7 @@ Then we have Attack function for when it is called in AttackPlayer():
 
 Then on Update() we call the states:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb" />
 
 We also have gizmos for the ranges to appear visually:
 
@@ -71,14 +71,14 @@ We also have gizmos for the ranges to appear visually:
 
 Lastly, we have LookTo() for the spider to remain staring in the right direction.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad" />
 
 ___Note:___ Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
 
 ### Navigation
 First, we made sure that all walls from the maze were 'static'.
 
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/61e5561e-2ff2-4a2d-822a-ac5caaf24a77" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/61e5561e-2ff2-4a2d-822a-ac5caaf24a77" />
 
 Then, in the 'Navigation' tab, we properly 'Baked' the area we wanted the spider to traverse.
 
