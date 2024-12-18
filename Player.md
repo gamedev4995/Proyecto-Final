@@ -25,7 +25,7 @@ We also added a 'Player' tag and layer for future interactions.
 ### Player Movement
 Then we added a script dedicated for the player movement controls called "PlayerMovement". In the script, we have the following libraries and variables (keep in mind we used Unity's newest input system).
 
-<img width="300" alt="Screenshot 2024-12-17 223007" src="https://github.com/user-attachments/assets/854d2e33-9603-4431-82bb-f55bdeefa629" />
+<img width="600" alt="Screenshot 2024-12-17 223007" src="https://github.com/user-attachments/assets/854d2e33-9603-4431-82bb-f55bdeefa629" />
 
 For the first function, on Awake(), we have the following:
 
@@ -47,7 +47,7 @@ For the jumping mechanic, we have OnJump() and OnCollisionEnter() which detects 
 
 Lastly for this script, on Update(), force and torque is applied:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/92dffc3c-d465-4c19-9719-922ae1e7eca0" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/92dffc3c-d465-4c19-9719-922ae1e7eca0" />
 
 ___Note:___ Values adjusted for public variables.
 
