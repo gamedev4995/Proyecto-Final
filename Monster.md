@@ -22,7 +22,7 @@ Additionally, we assigned a layer called 'Enemy' for future interactions.
 ## AI
 For our spider to chase around our player and inflict damage upon range, we added an AI object by creating and empty object (GameObject > Create Empty) and dragging it into the spider object as a child.
 
-<img width="300" alt="Screenshot 2024-12-17 220730" src="https://github.com/user-attachments/assets/f51b4f5e-d6ce-4bae-832f-32a6350926a8" />
+<img width="160" alt="Screenshot 2024-12-17 220730" src="https://github.com/user-attachments/assets/f51b4f5e-d6ce-4bae-832f-32a6350926a8" />
 
 ### Scripts
 Here we added two scripts, first one being 'Spider Sight':
