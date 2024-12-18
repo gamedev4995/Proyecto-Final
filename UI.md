@@ -40,7 +40,7 @@ To finish our healthbar, for our frame we copy and pasted the image object and t
 
 We wanted our healthbar to go down whenever the player lost any health. For this we added a new script component in the healthbar image and named it lifebar. In our script we added our code to update the hp line as our player lost/gained any health.
 
-<img width="606" alt="Screenshot 2024-12-17 at 9 02 32 PM" src="https://github.com/user-attachments/assets/61a4332f-3203-49d4-9d10-d15562700b5c" />
+<img width="400" alt="Screenshot 2024-12-17 at 9 02 32 PM" src="https://github.com/user-attachments/assets/61a4332f-3203-49d4-9d10-d15562700b5c" />
 
 ---
 
@@ -52,7 +52,7 @@ For our key counter, we add a text (GameObject > UI > 'Text - TextMeshPro') and 
 
 We also changed the font asset and selected our imported font 'Breath Fire II'.
 
-<img width="483" alt="Screenshot 2024-12-17 at 9 22 55 PM" src="https://github.com/user-attachments/assets/a6dbe539-f168-4cb4-8dd0-4387faa14a8f" />
+<img width="400" alt="Screenshot 2024-12-17 at 9 22 55 PM" src="https://github.com/user-attachments/assets/a6dbe539-f168-4cb4-8dd0-4387faa14a8f" />
 
 
 _Note:_ For our counter, we added it into our script 'KeyCollection', discussed over at [Keys.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/keys.md)
@@ -65,15 +65,15 @@ For our text regarding the usage of our potions, we copy and pasted our keys cou
 
 Health potion:
 
-<img width="495" alt="Screenshot 2024-12-17 at 9 36 28 PM" src="https://github.com/user-attachments/assets/308e2782-e6b1-4574-8b86-c7427eca01c9" />
+<img width="400" alt="Screenshot 2024-12-17 at 9 36 28 PM" src="https://github.com/user-attachments/assets/308e2782-e6b1-4574-8b86-c7427eca01c9" />
 
 Speed potion:
 
-<img width="489" alt="Screenshot 2024-12-17 at 9 36 34 PM" src="https://github.com/user-attachments/assets/21415d16-b99e-4c3e-8102-fa7a107de1bf" />
+<img width="400" alt="Screenshot 2024-12-17 at 9 36 34 PM" src="https://github.com/user-attachments/assets/21415d16-b99e-4c3e-8102-fa7a107de1bf" />
 
 Jump potion:
 
-<img width="483" alt="Screenshot 2024-12-17 at 9 36 38 PM" src="https://github.com/user-attachments/assets/b7c95048-8c82-4e6e-a553-84b357192de0" />
+<img width="400" alt="Screenshot 2024-12-17 at 9 36 38 PM" src="https://github.com/user-attachments/assets/b7c95048-8c82-4e6e-a553-84b357192de0" />
 
 
 _Note:_ with every text enabled, they will all look to be on top of each other but we made sure to code into our script 'PotionEffects' where the appearance of each text is handled according to which potion you take. Discussed over at [Potions.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/Potions.md)
@@ -85,7 +85,7 @@ _Note:_ with every text enabled, they will all look to be on top of each other b
 For our gate notice text we simply copy and pasted once more one of the other texts we've made. We changed the position to the middle so the player is well aware that they can now escape the maze and win.
 
 
-<img width="507" alt="Screenshot 2024-12-17 at 9 48 31 PM" src="https://github.com/user-attachments/assets/2af54c8b-ca96-4bb9-ae6b-121067b89153" />
+<img width="400" alt="Screenshot 2024-12-17 at 9 48 31 PM" src="https://github.com/user-attachments/assets/2af54c8b-ca96-4bb9-ae6b-121067b89153" />
 
 _Note:_ The apperance of this text is managed as well on our script 'KeyCollection', discussed over at [Keys.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/keys.md)
 
@@ -131,7 +131,20 @@ To make our button call the function Play Again, we headed into our inspector ta
 ---
 
 ## Lose Screen UI
-For our lose screen UI, we simply stuck with a simple UI screen with only a background, a defeat text and a 'retry' interactable button. Since it's the same as the win screen, we simply copy and pasted the components into a new scene and replaced the image/text to fit the lose screen. Since its our lose screen, we added a dungeon image to symbolize how the player couldn't make it out alive, we also changed the button text to read "restart"
+For our lose screen UI, we simply stuck with a simple UI screen with only a background, a defeat text and a 'retry' interactable button. Since it's the same as the win screen, we simply copy and pasted the components into a new scene and replaced the image/text to fit the lose screen. For our lose screen, we added a dungeon image to symbolize how the player couldn't make it out alive, we also changed the button text to read "restart".
+
+<img width="400" alt="Screenshot 2024-12-17 at 10 43 45 PM" src="https://github.com/user-attachments/assets/9958d381-72cd-4954-9699-530c27679f88" />
+
+
+We made sure as well to fit our script to be named LoseManager and our function named restart so we dont get confused with the win script. 
+
+<img width="400" alt="Screenshot 2024-12-17 at 10 45 30 PM" src="https://github.com/user-attachments/assets/b7a28c1b-153d-47bd-8b08-4740929ac601" />
+
+
+We adjusted the button as well accordingly to the script and function.
+
+<img width="222" alt="Screenshot 2024-12-17 at 10 47 17 PM" src="https://github.com/user-attachments/assets/088e1c81-4d46-4642-be42-a066bc74e197" />
+
 
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 25 31 PM" src="https://github.com/user-attachments/assets/03bd3802-3446-4887-a33e-838dbcf3e2e1" />
