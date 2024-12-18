@@ -52,7 +52,8 @@ Lastly for this script, on Update(), force and torque is applied:
 ___Note:___ Values adjusted for public variables.
 
 Result:
-[gif]
+![PlayerMovementVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/01691b26-3c0f-4e11-a515-e9113cd83620)
+
 
 ### Health
 For our second script, we called it "Health" in order to manage the amount of the player's health. The following libraries, variables and code were added:
@@ -106,7 +107,8 @@ For the jump animation, we added the following in OnJump():
 <img width="400" alt="Screenshot 2024-12-17 223442" src="https://github.com/user-attachments/assets/ce3c8435-faf2-4006-81ee-31de99b4d136" />
 
 Result:
-[gif]
+![PlayerAnimationVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cadeddfd-3f61-4730-a3fb-69bdf85425d3)
+
 
 ## Camera (First Person)
 For the first person perspective of our game, we first placed the camera as a child of our character asset:
@@ -126,4 +128,5 @@ And lastly the following Awake() and Update() code:
 <img width="400" alt="Screenshot 2024-12-17 225601" src="https://github.com/user-attachments/assets/1efcd647-8753-4349-832d-80b234a1ab54" />
 
 Final Result:
-[gif]
+
+![FirstPersonVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a757c721-c1f1-4e49-baaf-7d3f1f66fd26)
