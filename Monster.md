@@ -55,15 +55,15 @@ On Awake() we obtain the Nav Mesh Agent previously created:
 
 For the different states, we have ChasePlayer() and AttackPlayer():
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7239777c-fa7d-46e6-9471-79cb48327b75" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/7239777c-fa7d-46e6-9471-79cb48327b75" />
 
 Then we have Attack function for when it is called in AttackPlayer():
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/5f03b344-9894-48f0-9906-9a950a7a4ade" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/5f03b344-9894-48f0-9906-9a950a7a4ade" />
 
 Then on Update() we call the states:
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb" />
 
 We also have gizmos for the ranges to appear visually:
 
@@ -78,7 +78,7 @@ ___Note:___ Values were adjusted and placed the SpiderSight and Player prefab in
 ### Navigation
 First, we made sure that all walls from the maze were 'static'.
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/61e5561e-2ff2-4a2d-822a-ac5caaf24a77" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/61e5561e-2ff2-4a2d-822a-ac5caaf24a77" />
 
 Then, in the 'Navigation' tab, we properly 'Baked' the area we wanted the spider to traverse.
 
