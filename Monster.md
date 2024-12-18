@@ -2,6 +2,7 @@
 Asset: [Fantasy Spider](https://assetstore.unity.com/packages/3d/characters/animals/insects/fantasy-spider-236418)
 
 For our monster, we ended up choosing to go with a giant black widow spider to fit with the medieval fantasy style. So, once we downloaded the asset, we dragged the prefab to the scene.
+<img width="160" alt="" src="" />
 ![image](https://github.com/user-attachments/assets/43d5740b-c7e1-4bd2-a332-42352f4caa29)
 
 Same with the Player model, we added a 'Capsule Collider' and 'Rigidbody' components.
