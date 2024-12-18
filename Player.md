@@ -93,7 +93,7 @@ With these created, we could then set up the conditions by clicking on each arro
 
 Back to the Player Movement script, we added the following variable:
 
-<img width="400" alt="Screenshot 2024-12-17 223418" src="https://github.com/user-attachments/assets/cf2e8ddd-de31-4acf-ae8c-a614192fe990" />
+<img width="500" alt="Screenshot 2024-12-17 223418" src="https://github.com/user-attachments/assets/cf2e8ddd-de31-4acf-ae8c-a614192fe990" />
 
 On Awake(), we obtain the 'Animator' component:
 
@@ -101,7 +101,7 @@ On Awake(), we obtain the 'Animator' component:
 
 For the running animation, we added the following line of code in OnMove():
 
-<img width="500" alt="Screenshot 2024-12-17 223431" src="https://github.com/user-attachments/assets/ea599c21-2562-45d7-ae74-23fcebe9528e" />
+<img width="550" alt="Screenshot 2024-12-17 223431" src="https://github.com/user-attachments/assets/ea599c21-2562-45d7-ae74-23fcebe9528e" />
 
 For the jump animation, we added the following in OnJump():
 
