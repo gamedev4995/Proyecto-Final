@@ -36,7 +36,7 @@ We also have gizmos for the ranges to appear visually:
 Lastly, we have LookTo() for the spider to remain staring in the right direction.
 
 Result:
-[gif]
+[image]
 
 ___Note:___Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
 
@@ -45,6 +45,6 @@ First, we made sure that all walls from the maze were 'static'.
 
 Then, in the 'Navigation' tab, we properly 'Baked' the area we wanted the spider to traverse.
 
-Result:
-[image]
+Final Result:
+[gif]
 
