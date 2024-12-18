@@ -43,7 +43,7 @@ For the jumping mechanic, we have OnJump() and OnCollisionEnter() which detects 
 
 <img width="400" alt="Screenshot 2024-12-17 223051" src="https://github.com/user-attachments/assets/1068a9b0-4bbc-4963-976c-8f9b2b4b737d" />
 
-<img width="400" alt="Screenshot 2024-12-17 223103" src="https://github.com/user-attachments/assets/6658b42c-7977-4951-a02a-55ecfcb7930e" />
+<img width="500" alt="Screenshot 2024-12-17 223103" src="https://github.com/user-attachments/assets/6658b42c-7977-4951-a02a-55ecfcb7930e" />
 
 Lastly for this script, on Update(), force and torque is applied:
 
@@ -52,6 +52,7 @@ Lastly for this script, on Update(), force and torque is applied:
 ___Note:___ Values adjusted for public variables.
 
 Result:
+
 ![PlayerMovementVid-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/01691b26-3c0f-4e11-a515-e9113cd83620)
 
 
