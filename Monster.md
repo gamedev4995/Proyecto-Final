@@ -55,23 +55,23 @@ On Awake() we obtain the Nav Mesh Agent previously created:
 
 For the different states, we have ChasePlayer() and AttackPlayer():
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/7239777c-fa7d-46e6-9471-79cb48327b75" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/7239777c-fa7d-46e6-9471-79cb48327b75" />
 
 Then we have Attack function for when it is called in AttackPlayer():
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/5f03b344-9894-48f0-9906-9a950a7a4ade" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/5f03b344-9894-48f0-9906-9a950a7a4ade" />
 
 Then on Update() we call the states:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb" />
 
 We also have gizmos for the ranges to appear visually:
 
-<img width="400" alt="Screenshot 2024-12-17 212941" src="https://github.com/user-attachments/assets/8634e194-3230-4722-8a17-09c9ecf751b2" />
+<img width="500" alt="Screenshot 2024-12-17 212941" src="https://github.com/user-attachments/assets/8634e194-3230-4722-8a17-09c9ecf751b2" />
 
 Lastly, we have LookTo() for the spider to remain staring in the right direction.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad" />
 
 ___Note:___ Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
 
