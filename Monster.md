@@ -13,6 +13,9 @@ Same with the Player model, we added a 'Capsule Collider' and 'Rigidbody' compon
 Then we added a 'Nav Mesh Agent' component:
 ![Screenshot 2024-12-17 214351](https://github.com/user-attachments/assets/1748da76-c06f-46ec-91f6-67b5c8e38f30)
 
+Additionally, we assigned a layer called 'Enemy' for future interactions.
+![Screenshot 2024-12-17 214251](https://github.com/user-attachments/assets/828bd492-0dc8-4750-9b43-4e8b3a47c16f)
+
 ## AI
 For our spider to chase around our player and inflict damage upon range, we added an AI object by creating and empty object (GameObject > Create Empty) and dragging it into the spider object as a child.
 ![Screenshot 2024-12-17 220730](https://github.com/user-attachments/assets/f51b4f5e-d6ce-4bae-832f-32a6350926a8)
