@@ -7,9 +7,12 @@ Fire and spikes will share one script, these can be grouped due to their similar
 ## Fire
 ---
 
-To create the fire trap first create an effect particle system object. For our fire effect we decided to reuse a previously imported material in class called "fire" for the shape of our flame emitters. 
+To create the fire trap first create an effect particle system object.
 
-The fire material has the following:
+<img width="684" alt="Screenshot 2024-12-17 at 8 43 32 PM" src="https://github.com/user-attachments/assets/c41eb1e8-e8b0-4099-976f-81a1df5f7c60" />
+
+
+For our fire effect we decided to reuse a previously imported material in class called "fire" for the shape of our flame emitters. The fire material has the following:
 
 <img width="400" alt="Screenshot 2024-12-17 at 8 54 55 PM" src="https://github.com/user-attachments/assets/7fc65c42-efd8-48b5-8f55-441bc3990633" />
 
