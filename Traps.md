@@ -10,27 +10,35 @@ Fire and spikes will share one script, these can be grouped due to their similar
 To create the fire trap first create an effect particle system object. For our fire effect we decided to reuse a previously imported material in class called "fire" for the shape of our flame emitters. 
 
 The fire material has the following:
+
 <img width="400" alt="Screenshot 2024-12-17 at 8 54 55 PM" src="https://github.com/user-attachments/assets/7fc65c42-efd8-48b5-8f55-441bc3990633" />
 
 Our fire traps variables should be as follows: 
 
 For the render field the material should be "fire":
+
 <img width="400" alt="Screenshot 2024-12-17 at 8 45 08 PM" src="https://github.com/user-attachments/assets/8337b49f-91b1-44f8-9a98-df6a20021bae" />
+
 
 <img width="400" alt="Screenshot 2024-12-17 at 8 44 21 PM" src="https://github.com/user-attachments/assets/c4de981c-23b3-42b5-b0fa-7330f07de5ee" />
 
 The emission field:
+
 <img width="407" alt="Screenshot 2024-12-17 at 8 44 33 PM" src="https://github.com/user-attachments/assets/abd307d6-349d-4a14-9cbd-32be72a4c7c5" />
 
 The shape:
+
 <img width="407" alt="Screenshot 2024-12-17 at 8 44 45 PM" src="https://github.com/user-attachments/assets/93977267-6ce7-43e3-a79c-107b0d838f36" />
 
 Color over lifetime:
+
 <img width="395" alt="Screenshot 2024-12-17 at 8 44 56 PM" src="https://github.com/user-attachments/assets/611741dc-234f-4145-a76e-ae7f04857ca1" />
 
 
 Finally add a capsulte collider and adjust by elongating as needed. The final product should look like:
+
 <img width="684" alt="Screenshot 2024-12-17 at 8 56 52 PM" src="https://github.com/user-attachments/assets/7f7f1fba-2eec-484e-adc0-e60fe4d041c4" />
+
 
 Attach the Damage Zone script (Discussed below) to this effect to ensure the player is affected by theh flames.
 
@@ -50,6 +58,7 @@ Duplicate this 2 more times to create a row of spikes:
 <img width="600" alt="Screenshot 2024-12-17 at 8 15 39 PM" src="https://github.com/user-attachments/assets/ad9622e1-3ab0-42e5-9f8e-6216852b50ba" />
 
 Duplicate this row and put them beside one another to create two row of spikes.
+
 <img width="600" alt="Screenshot 2024-12-17 at 8 28 21 PM" src="https://github.com/user-attachments/assets/48b548e8-e32f-4f5e-8c56-45e6b0538854" />
 
 All these objects should be grouped together in a folder in the game. This will be one instance of a spikes trap. Select the spikes folder and add a box collider to the spikes. This will help detect if the player comes in contact with the spikes while playing. Next we will add the Damage Zone Script, once we create it.
@@ -76,6 +85,7 @@ Anytime damage is dealt to the player a message is printed stating the amount of
 ---
 
 To create our lava pit we use the the hole trap prefab from the assets imported. Next we create a GameObject of type plane. Create a new material in the material folder for the lava. Import a lava texture and assign fields as follows: 
+
 <img width="401" alt="Screenshot 2024-12-17 at 9 03 19 PM" src="https://github.com/user-attachments/assets/a6b3e3dc-3909-4b50-acd2-ca2942848ea2" />
 
 Place the plane as a child of the hole trap prefab. Size the plane to fit inside the hole trap space, then place the newly created lava material on the plane. Add a box collider component. Next we will create the Lava Damage script and attach it to this.
