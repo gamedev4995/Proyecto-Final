@@ -1,6 +1,6 @@
 # Potions
 
-To help our player out we are going to add potions/powerups to our gameplay. Its important to note that the power ups are permenant throughout the gameplay once acquiered.
+To help our player out we are going to add potions/powerups to our gameplay. It's important to note that the power ups are permanent throughout the gameplay once acquired.
 
 We are going to be making 3 different types of potions:
 - Health potion: Recovers some of players health
@@ -11,7 +11,7 @@ The prefabs used to represent the potions are from the mentioned asset in README
 
 ## Health Potion
 ---
-For the health potion we will use the prefab called Bottle_Health. Once we've placed the item in our game and created the prefab of this object, place it into a the prefab folder for this specific project. This is done to maintain an organized system in our project. Do this for every potion bottle prefab.
+For the health potion we will use the prefab called Bottle_Health. Once we've placed the item in our game and created the prefab of this object, place it into the prefab folder for this specific project. This is done to maintain an organized system in our project. Do this for every potion bottle prefab.
 
 <img width="500" alt="Screenshot 2024-12-17 at 6 49 42 PM" src="https://github.com/user-attachments/assets/b295b426-23de-4c91-9542-411927fa4d80" />
 
@@ -40,20 +40,18 @@ Select the speed potion prefab in the folder and create a tag called JumpPot. Ad
 
 ## Script
 ---
-Start a new scrip in the scrip folder called PotionEffects.
+Start a new script in the script folder called PotionEffects.
 
-Declare private and public variables:
-The private variables will store references to other components on the same GameObject, the public floats determine how much each potion affects the player, and the rest are references to TextMeshProUGUI elements that display messages when potions are picked up.
+Declare private and public variables. The private variables will store references to other components on the same GameObject, the public floats determine how much each potion affects the player, and the rest are references to TextMeshProUGUI elements that display messages when potions are picked up.
 
 <img width="600" alt="Screenshot 2024-12-17 at 6 57 13 PM" src="https://github.com/user-attachments/assets/8ffb09f3-1140-4ee4-8ac4-92a3d360939e" />
 
-The start function, uses GetComponent<Health>() and GetComponent<PlayerMovement>() to find these scripts on the same GameObject and store references to them. It then hides all the UI texts so they’re not visible until a potion is picked up. 
+The start function uses GetComponent<Health>() and GetComponent<PlayerMovement>() to find these scripts on the same GameObject and store references to them. It then hides all the UI texts so they’re not visible until a potion is picked up. 
 
 <img width="440" alt="Screenshot 2024-12-17 at 7 11 29 PM" src="https://github.com/user-attachments/assets/0a8c6628-fe7a-4c28-95fa-de81e85f71ee" />
 
 
-OnTriggerEnter(Collider other) is called when the player’s collider enters another trigger collider.
-Depending on the tag of the collided object, this checks if it’s a Health, Speed, or Jump potion.
+OnTriggerEnter(Collider other) is called when the player’s collider enters another trigger collider. Depending on the tag of the collided object, this checks if it’s a Health, Speed, or Jump potion.
 
 <img width="600" alt="Screenshot 2024-12-17 at 7 15 10 PM" src="https://github.com/user-attachments/assets/49826db5-4831-4c18-bea4-f1372bbd08a2" />
 
