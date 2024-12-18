@@ -26,28 +26,37 @@ Here we added two scripts, first one being 'Spider Sight':
 ![Screenshot 2024-12-17 221045](https://github.com/user-attachments/assets/fd434b39-7349-4174-a0a3-8b9cc8e8f676)
 
 In 'Spider Sight' script, we used the following libraries and variables:
+![image](https://github.com/user-attachments/assets/f4f40a3f-59a8-41f8-9ada-5ded0d8a437b)
 
 For Update() we placed the following code:
+![image](https://github.com/user-attachments/assets/d5bf56da-677e-460d-ac01-7fbcd4792bf7)
 
 For visuals, we drew gizmos:
+![image](https://github.com/user-attachments/assets/46266421-2c25-4d6a-b7d1-876f76d60fd2)
 
 Then came the second script which we called 'SpiderFSM':
 ![Screenshot 2024-12-17 221035](https://github.com/user-attachments/assets/95897e14-c2fa-4bbc-b12b-cb6e8451b0ef)
 
 Here we used the following libraries and variables:
+![image](https://github.com/user-attachments/assets/b9db866f-9ce1-4259-a46c-4c24ac45b52e)
 
 On Awake() we obtain the Nav Mesh Agent previously created:
+![image](https://github.com/user-attachments/assets/c30834d8-272b-49e7-b2c9-9dbd174f5266)
 
 For the different states, we have ChasePlayer() and AttackPlayer():
+![image](https://github.com/user-attachments/assets/7239777c-fa7d-46e6-9471-79cb48327b75)
 
 Then we have Attack function for when it is called in AttackPlayer():
+![image](https://github.com/user-attachments/assets/5f03b344-9894-48f0-9906-9a950a7a4ade)
 
 Then on Update() we call the states:
+![image](https://github.com/user-attachments/assets/9d54ebd8-236c-473d-8d53-b848406755bb)
 
 We also have gizmos for the ranges to appear visually:
 ![Screenshot 2024-12-17 212941](https://github.com/user-attachments/assets/8634e194-3230-4722-8a17-09c9ecf751b2)
 
 Lastly, we have LookTo() for the spider to remain staring in the right direction.
+![image](https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad)
 
 ___Note:___ Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
 
