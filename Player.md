@@ -126,7 +126,7 @@ For this script we added the following libraries and variables:
 
 And lastly the following Awake() and Update() code:
 
-<img width="400" alt="Screenshot 2024-12-17 225601" src="https://github.com/user-attachments/assets/1efcd647-8753-4349-832d-80b234a1ab54" />
+<img width="600" alt="Screenshot 2024-12-17 225601" src="https://github.com/user-attachments/assets/1efcd647-8753-4349-832d-80b234a1ab54" />
 
 Final Result:
 
