@@ -1,5 +1,5 @@
 # Player
-Asset: Fantasy RPG Human Male
+Asset: [Fantasy RPG Human](https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952)
 
 To start off, we placed the prefab of the human model from our asset onto the scene.
 
