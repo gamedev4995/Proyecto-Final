@@ -47,7 +47,22 @@ To create the effect of a thick shrouded forest we cover the surrounding area of
 
 This will be the temporary scenery the player views once exiting the maze before being taken to the win screen. This area is closely related to the win screen. Since the WinFloor has a collider set as a trigger, whenever another collider enters this trigger zone, OnTriggerEnter is called. Inside OnTriggerEnter, the script verifies if the object entering the trigger is tagged as "Player." Once this is confirmed it calls gameMode.PlayerWon() to execute the win scenario/screen.
 
+Win Floor Script:
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/431378bb-1d18-4688-b04f-04ae88040de0" />
+
 Basically,the WinFloor makes this act as a special area in the game world that, when touched by the player, signals that the player has achieved the winning condition. It’s a simple trigger-based script that collaborates with another script (WinLose) to manage the overall end-game logic.
 
+WinLose script is added to an empty object called 'GameMode':
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/a71c63de-9a18-4977-b4e0-51f1635f279b" />
+
+WinLose script:
+
+<img width="600" alt="Screenshot 2024-12-18 001524" src="https://github.com/user-attachments/assets/43d9ecb6-b0d8-4e9d-a41e-18557803b736" />
+
+This object is what is placed as reference for the WinFloor script:
+
+<img width="600" alt="Screenshot 2024-12-17 233152" src="https://github.com/user-attachments/assets/e871a99f-7a5a-4d75-96c6-e7b12f26e9a0" />
 
 
