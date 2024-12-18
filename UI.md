@@ -7,9 +7,14 @@ For our in game UI, we decided to incorporate:
 3. potion usage: texts to let the player know which potions they've consumed 
 4. gate notice: text that notifies the player when the gate is officially opened(when they've collected all the keys)
 
+_Notes!:_
 To start off, we need to go to window > package manager > unity registry > and import 2d sprite. We also need to add the GUI Parts Asset which can be found in the asset store (Window > Assets Store > GUI parts).
 
-Firstly add the UI gameobject 'Canvas' > 'Image'. Now on your proyect window, search for the GUI Parts folder, we'll use hp_line and hp_frame for our healthbar.
+Since wanted to stick with our medieval theme, we imported a desired font called 'Breath Fire II', courtesy of www.dafont.com, to fit our game's aesthetic. To import new fonts we have to go to Window > TextMeshPro > Font Asset Creator. This will bring up a new window but we simply dragged our already downloaded font into source font file and hit Generate Font Atlas and save.
+
+
+### Healthbar
+Firstly add the gameobject UI > 'Image'. Now on your proyect window, search for the GUI Parts folder, we'll use hp_line and hp_frame for our healthbar.
 
 <img width="160" alt="Screenshot 2024-12-17 at 8 24 32 PM" src="https://github.com/user-attachments/assets/573fb04a-f1de-46fc-9b42-3d1e59dcd7fc" />
 
@@ -39,6 +44,19 @@ We wanted our healthbar to go down whenever the player lost any health. For this
 <img width="606" alt="Screenshot 2024-12-17 at 9 02 32 PM" src="https://github.com/user-attachments/assets/61a4332f-3203-49d4-9d10-d15562700b5c" />
 
 
+### Key Counter
+
+For our key counter, we add a text (GameObject > UI > 'Text - TextMeshPro') and in othe inspector tab we added the text we wanted which in this case was "keys found: "
+
+<img width="400" alt="Screenshot 2024-12-17 at 9 22 55 PM" src="https://github.com/user-attachments/assets/98b1b427-99d2-46b0-b6cd-de2b58eb6f88" />
+
+We also changed the font asset and selected our imported font 'Breath Fire II'.
+
+
+<img width="483" alt="Screenshot 2024-12-17 at 9 22 55 PM" src="https://github.com/user-attachments/assets/a6dbe539-f168-4cb4-8dd0-4387faa14a8f" />
+
+
+
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 19 04 PM" src="https://github.com/user-attachments/assets/96d822b7-c29f-4674-b225-35e77e2174f5" />
 
@@ -47,7 +65,7 @@ _note!_: our potion usage text will display various texts depending on what poti
 ---
 
 ## Win Screen UI
-For our in win screen UI, we simply stuck with a simple UI screen with only a background, a victory text and a 'play again' interactable button.
+For our win screen UI, we simply stuck with a simple UI screen with only a background, a victory text and a 'play again' interactable button.
 
 ## Final Result
 
@@ -56,7 +74,7 @@ For our in win screen UI, we simply stuck with a simple UI screen with only a ba
 ---
 
 ## Lose Screen UI
-For our in lose screen UI, we simply stuck with a simple UI screen with only a background, a defeat text and a 'retry' interactable button.
+For our lose screen UI, we simply stuck with a simple UI screen with only a background, a defeat text and a 'retry' interactable button.
 
 ## Final Result
 <img width="600" alt="Screenshot 2024-12-17 at 6 25 31 PM" src="https://github.com/user-attachments/assets/03bd3802-3446-4887-a33e-838dbcf3e2e1" />
