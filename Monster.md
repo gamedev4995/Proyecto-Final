@@ -71,7 +71,7 @@ We also have gizmos for the ranges to appear visually:
 
 Lastly, we have LookTo() for the spider to remain staring in the right direction.
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad" />
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/e95a24a2-4e9f-4b57-ae3c-0b1ec3cdb2ad" />
 
 ___Note:___ Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
 
@@ -90,7 +90,7 @@ ___Note:___ Knowing later on we would incorporate holes in the floor as traps, a
 
 Then created a unique layer for it called 'InvisibleFloor':
 
-<img width="550" alt="Screenshot 2024-12-17 215215" src="https://github.com/user-attachments/assets/318761ec-48a2-4410-9634-ff30ccefb956" />
+<img width="350" alt="Screenshot 2024-12-17 215215" src="https://github.com/user-attachments/assets/318761ec-48a2-4410-9634-ff30ccefb956" />
 
 Where in the Edit > Project Settings > Physics we unchecked the interaction between Player and InvisibleFloor so that the play is still able to fall in the hole traps.
 
