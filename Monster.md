@@ -51,7 +51,7 @@ Here we used the following libraries and variables:
 
 On Awake() we obtain the Nav Mesh Agent previously created:
 
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/c30834d8-272b-49e7-b2c9-9dbd174f5266" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/c30834d8-272b-49e7-b2c9-9dbd174f5266" />
 
 For the different states, we have ChasePlayer() and AttackPlayer():
 
