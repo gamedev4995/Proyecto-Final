@@ -5,7 +5,7 @@ To start off, we placed the prefab of the human model from our asset onto the sc
 
 Then we proceeded to add 'Rigidbody' component:
 
-Then came the collider. We went for the capsule collider and adjusted the center and radius:
+Then came the collider. We went for the 'capsule collider' and adjusted the center and radius:
 
 ## Scripts
 ### Player Movement
