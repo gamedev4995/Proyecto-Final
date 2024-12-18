@@ -3,6 +3,8 @@
 For our final class project, we chose to do a maze game in which the player gets chased by a monster and must find 3 keys in order to escape.
 
 ---
+## Project Folder:
+[Project](https://drive.google.com/file/d/1rHC-FVq0Dfk_QrYEMdlI1pQLaPav7hwb/view?usp=sharing) 
 
 ## Summary:
 Our game takes place in a medieval fantasy world. You are an adventurer who enters a labyrinth after hearing that there could be a great treasure hidden inside, but you quickly realize that it was all a lie. The place is protected by a giant spider and there are traps everywhere.  To escape, you must find the three keys hidden inside the maze to unlock the exit. Can you survive the time it takes to find the keys and escape?
