@@ -2,14 +2,19 @@
 Asset: [Fantasy RPG Human](https://assetstore.unity.com/packages/3d/characters/humanoids/humans/free-modular-character-fantasy-rpg-human-male-228952)
 
 To start off, we placed the prefab of the human model from our asset onto the scene.
+![Screenshot 2024-12-17 210853](https://github.com/user-attachments/assets/d71ce008-4a40-42f3-94ae-3eede36475e1)
 
 Then we proceeded to add 'Rigidbody' component:
+![Screenshot 2024-12-17 214106](https://github.com/user-attachments/assets/150ea001-767f-482b-bee7-1ce3d73c2eb1)
 
 Then came the collider. We went for the 'Capsule Collider' and adjusted the center and radius:
+![Screenshot 2024-12-17 222247](https://github.com/user-attachments/assets/a5ae15c1-acb5-481d-ad9f-c42d87d57442)
 
-___Note:___ We also created a 'Physics Material' called 'NoFriction', set all values to 0 and dragged it onto the 'Material' section in the collider. With this applied to the character model and walls, the player would no longer get "stuck" on the walls during contact. 
+___Note:___ We also created a 'Physics Material' called 'NoFriction', set all values to 0 and dragged it onto the 'Material' section in the collider. With this applied to the character model and walls, the player would no longer get "stuck" on the walls during contact.
+![image](https://github.com/user-attachments/assets/fc753c12-35d5-4c96-8a5f-f5e2ab367f27)
 
 We also added a 'Player' tag and layer for future interactions.
+![Screenshot 2024-12-17 214230](https://github.com/user-attachments/assets/417bc64b-82bb-4ca9-92f5-34d755d3f7f5)
 
 ## Scripts
 ### Player Movement
@@ -21,7 +26,7 @@ Then we have the OnMove function:
 
 Next, the OnLook function:
 
-For the Jump function, we have OnJump and OnCollisionEnter which detects where or not the player is back on the ground, preventing infinite jumps.
+For the Jump function, we have OnJump() and OnCollisionEnter() which detects whether or not the player is back on the ground, preventing infinite jumps.
 
 Lastly for this script, on Update(), force and torque is applied:
 
@@ -37,19 +42,23 @@ For our second script, we called it "Health" in order to manage the amount of th
 __Note:___ Unfortunately we were only able to apply animation for the player and not the monster (spider) due to an odd behavior with the asset.
 
 For animations, one must first add an 'Animator Controller' in projects folder and then an 'Animator' component, however in our case, the asset model prefab already came with them set up.
+![Screenshot 2024-12-17 214043](https://github.com/user-attachments/assets/f9cd9383-dbe8-4774-a632-0dcf4988cc10)
 
 Then, in the 'Animator' tab, we dragged the animations that we wanted to use from our asset:
 
-Then we right clicked on each animation to 'Make Transition' to other animations. In our case we went from Entry to Idle, Idle to Jump (vice versa), and from Idle to Running (vice versa):
+Then we right clicked on each animation to 'Make Transition' to other animations. In our case we went from Entry to Idle, Idle to Jump (vice versa) Idle to Running (vice versa), and Running to Jump (vice versa):
 
 Afterwards, we went to the 'Parameter' tab on the side and created, with the '+', a 'bool' called "moving" and a 'trigger' called "jump".
 
 With these created, we could then set up the conditions by clicking on each arrow in the transitions and to the right in 'Conditions' the '+' was pressed and set up the conditions logically.
+![Screenshot 2024-12-17 221618](https://github.com/user-attachments/assets/a48edd8f-2015-4fb7-a7e8-e2c3c6aa325a)
 
 1. For Idle to Jump: we added condition 'jump'
 2. For Jump to Idle: we added condition 'moving' and 'false'
 3. For Idle to Running: we added condition 'moving' and 'true'
 4. For Running to Idle: we added condition 'moving' and 'false'
+5. For Running to Jump: we added condition 'jump'
+6. For Jump to Running: we added condition 'moving' and 'true'
 
 Back to the Player Movement script, we added the following variable:
 
@@ -62,8 +71,10 @@ Result:
 
 ## Camera (First Person)
 For the first person perspective of our game, we first placed the camera as a child of our character asset:
+![Screenshot 2024-12-17 220748](https://github.com/user-attachments/assets/83281740-76c4-4aa6-af63-d661b9eeb792)
 
 Then we created a script called 'Camera Controller' which enables the vertical control of the camera since the horizontal one was already established in the PlayerMovement rotation.
+![image](https://github.com/user-attachments/assets/6b0d8c62-6699-4ef7-9ba4-09b618f06846)
 
 For this script we added the following libraries and variables:
 
