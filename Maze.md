@@ -1,10 +1,95 @@
 # Maze
+
+To create the maze first we mapped out and generated a few iterations of different maze sizes to create a maze that wasn't too large and difficult or too easy. We generated a simple maze with the help of https://www.mazegenerator.net/ and looked for a good maze we could work with.
+
+<img width="365" alt="Screenshot 2024-12-17 at 11 36 31 PM" src="https://github.com/user-attachments/assets/f466d454-80c4-4ef0-9296-d86e643e1a2b" />
+
+
+> Chosen maze to design
+
+_Important Note_: The development of the maze would have been more doable if you were to put the walls/floors/etc. into a prefab variant. I was a bit too deep into the project when I realized I never made it into a prefab variant. Even so, it was easy to go through all the objects since, later on, we will discuss on how we set up our traps.
+
+
+### Outer Walls
+
+We first started on our outer walls. For a symmetrical maze, we used the same amount of walls for each side of the maze. In our case there is 10 walls per side, except for the top and bottom that there will be 9 only. The one wall that is missing on the bottom/top side will act as our entrance/exit.
+
+To save us time, we simply did the left side first and added it into an empty gameobject. For the other sides, we simply copy and pasted the game object and rotating it accordingly to the maze.
+
+
+<img width="554" alt="Screenshot 2024-12-17 at 11 05 56 PM" src="https://github.com/user-attachments/assets/4fea7441-317b-4634-9c46-07359b749a76" />
+
+
+### Floor 
+
+We then tackled our floor, we used the same method of having a row of 10 floor objects first and then added them into an empty gameobject. For the rest of the maze we simply copy and pasted the gameobject until we fully covered every side.
+
+<img width="510" alt="Screenshot 2024-12-17 at 11 26 23 PM" src="https://github.com/user-attachments/assets/347a7a17-f8f7-4590-8469-64d312411d4d" />
+
+
+### Ceiling
+
+The ceiling was simple enough. We copy and pasted the object to the floor that was fully finished and with the move tool, we used the y-coordinate to raise it upwards making sure it connects our walls.
+
+<img width="527" alt="Screenshot 2024-12-18 at 12 07 57 AM" src="https://github.com/user-attachments/assets/cc50f964-9e77-4224-8c14-fad28f6ca504" />
+
+_Note!_: For easier management throughout our project we disabled the ceiling for the rest of the making of the projects so its easier for us to loo into the maze.
+
+### Inner Walls
+
+The inner walls of our maze was the most tedious and time consuming part. We wanted to make sure every end connected properly and that the maze looked even in terms of height, width, etc. For our inside of the maze we followed our reference maze as a guide and thanks to our asset, it provided us with corner walls as well which shortened our time doing these. It might have been an easier approach with probuilder, but we wanted our maze to have a realistic look and feel to it which is why we decided to go with assets and truly capture the texture of them.
+
+<img width="500" alt="Screenshot 2024-12-18 at 12 19 43 AM" src="https://github.com/user-attachments/assets/d455b7fa-dfa5-44a2-b063-198114adebe5" />
+
+
+<img width="500" alt="Screenshot 2024-12-18 at 12 20 07 AM" src="https://github.com/user-attachments/assets/f9fcddf4-1296-4f0c-9e64-5bdb95c584f9" />
+
+#### Final Result 
+
+<img width="564" alt="Screenshot 2024-12-18 at 12 23 31 AM" src="https://github.com/user-attachments/assets/5b039fdb-6ee1-44a9-9def-09092f4b8168" />
+
+
+### Traps
+
+For our traps, we placed them randomly throughout our maze, with a variety of them so it's not too monotonous. 
+
+For our lava pits, we simply ended up taking the floors where we wanted our lava pits to be and removed them(like the image shown above). Then we placed the pits into the empty slots. We adjusted them accordingly with the move tool as well as the scale tool if necessary.
+
+
+<img width="532" alt="Screenshot 2024-12-18 at 12 27 06 AM" src="https://github.com/user-attachments/assets/39123d1d-2e14-4d55-8575-cfb2c7608919" />
+
+
+For our spikes, we arranged them varying in sizes so that the player might have to time their jump right or find a potion to help them make the jump safely.
+
+
+<img width="453" alt="Screenshot 2024-12-18 at 12 29 45 AM" src="https://github.com/user-attachments/assets/a5216b50-cd08-4a9c-9197-3ad4519b33c7" />
+
+
+For our fires, we had them arranged so that the player jumps over them same with the spikes. We also have them going vertically at some positions, making the path more narrow so the player has to be careful while running or else they can get caught in the fire.
+
+
+<img width="585" alt="Screenshot 2024-12-18 at 12 33 30 AM" src="https://github.com/user-attachments/assets/f0ba0094-83f1-408e-89a5-835ab647e572" />
+
+
+### Locked Gate 
+
+We were grateful our asset provided us with a rusty door. We made use of two of them to create our locked gate/exit. We aligned and positioned them accordingly so it fit well the space between the walls.
+
+
+<img width="562" alt="Screenshot 2024-12-18 at 12 34 26 AM" src="https://github.com/user-attachments/assets/b2333d52-eeef-428b-81dc-56c977ef7254" />
+
+
+### Lighting
+
+The inside our maze was going to be extremely dark due to the closed off map. We decided to add torches as lighting without taking away the look and feel of medieval ages. It was a bit time consuming to adjust the torches since the prefabs were unfortunatly never developed but for future references, each wall could have a torch. Saving you lots of time when applying props!
+
+
+#### Final Result 
+
+<img width="524" alt="Screenshot 2024-12-18 at 12 41 02 AM" src="https://github.com/user-attachments/assets/0c89d200-302b-47dd-9680-61e430b7294c" />
+
+
 ---
-
-To create the maze first we mapped out and generated a few iterations of different maze sizes to create a maze that wasn't too large and difficult or too easy.
-
-
-
 ## Maze Entrance
 ---
 To avoid having the player in an open space where they can wander off we created a start room where the player and spider will be initialized.
