@@ -46,7 +46,7 @@ We wanted our healthbar to go down whenever the player lost any health. For this
 
 ### Key Counter
 
-For our key counter, we add a text (GameObject > UI > 'Text - TextMeshPro') and in othe inspector tab we added the text we wanted which in this case was "keys found: "
+For our key counter, we add a text (GameObject > UI > 'Text - TextMeshPro') and in the inspector tab we added the text we wanted which in this case was "keys found: "
 
 <img width="400" alt="Screenshot 2024-12-17 at 9 22 55 PM" src="https://github.com/user-attachments/assets/98b1b427-99d2-46b0-b6cd-de2b58eb6f88" />
 
@@ -76,7 +76,7 @@ Jump potion:
 <img width="483" alt="Screenshot 2024-12-17 at 9 36 38 PM" src="https://github.com/user-attachments/assets/b7c95048-8c82-4e6e-a553-84b357192de0" />
 
 
-_Note:_ with every text enabled, they will all look to be on top of each other but we made sure to code into our script 'PotionEffects' where the appearance of each text is handled according to which potion you take. Discussed in [Potions.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/Potions.md)
+_Note:_ with every text enabled, they will all look to be on top of each other but we made sure to code into our script 'PotionEffects' where the appearance of each text is handled according to which potion you take. Discussed over at [Potions.md](https://github.com/gamedev4995/Proyecto-Final/blob/2c265fdbab1a15f3940a8a94571c55c13a93419f/Potions.md)
 
 ---
 
