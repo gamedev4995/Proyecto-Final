@@ -13,4 +13,36 @@ For our spider to chase around our player and inflict damage upon range, we adde
 ### Scripts
 Here we added two scripts, first one being 'Spider Sight':
 
-In 'Spider Sight' script, 
+In 'Spider Sight' script, we used the following libraries and variables:
+
+For Update() we placed the following code:
+
+For visuals, we drew gizmos:
+
+Then came the second script which we called 'SpiderFSM':
+
+Here we used the following libraries and variables:
+
+On Awake() we obtain the Nav Mesh Agent previously created:
+
+For the different states, we have ChasePlayer() and AttackPlayer():
+
+Then we have Attack function for when it is called in AttackPlayer():
+
+Then on Update() we call the states:
+
+We also have gizmos for the ranges to appear visually:
+
+Lastly, we have LookTo() for the spider to remain staring in the right direction.
+
+Result:
+[gif]
+
+___Note:___Values were adjusted and placed the SpiderSight and Player prefab in their respective places.
+
+### Navigation
+In the 'Navigation' tab, we made sure the properly 'Bake' the area we wanted the spider to traverse.
+
+Result:
+[image]
+
