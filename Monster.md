@@ -7,10 +7,11 @@ For our monster, we ended up choosing to go with a giant black widow spider to f
 
 We added a 'Capsule Collider': 
 
-<img width="300" alt="Screenshot 2024-12-17 214322" src="https://github.com/user-attachments/assets/2b28c3ce-8e96-457f-8dc2-bd45cb8d2a4d" />
+<img width="350" alt="Screenshot 2024-12-17 214322" src="https://github.com/user-attachments/assets/2b28c3ce-8e96-457f-8dc2-bd45cb8d2a4d" />
 
 Then we applied 'Rigidbody':
-<img width="300" alt="Screenshot 2024-12-17 214337" src="https://github.com/user-attachments/assets/64c612c2-7646-4723-81d4-03ebd4babdb0" />
+
+<img width="350" alt="Screenshot 2024-12-17 214337" src="https://github.com/user-attachments/assets/64c612c2-7646-4723-81d4-03ebd4babdb0" />
 
 Then we added a 'Nav Mesh Agent' component:
 
