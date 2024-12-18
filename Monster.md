@@ -41,7 +41,7 @@ For Update() we placed the following code:
 
 For visuals, we drew gizmos:
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/46266421-2c25-4d6a-b7d1-876f76d60fd2" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/46266421-2c25-4d6a-b7d1-876f76d60fd2" />
 
 Then came the second script which we called 'SpiderFSM':
 
